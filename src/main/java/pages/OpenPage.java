@@ -25,7 +25,7 @@ public class OpenPage extends BasePage {
         float bay = Float.parseFloat(prices_list.get(0).getText().replace(",", "."));
         float sell = Float.parseFloat(prices_list.get(1).getText().replace(",", "."));
 
-        if(bay>sell){
+        if(bay<sell){
             return true;
         } else {
             return false;
