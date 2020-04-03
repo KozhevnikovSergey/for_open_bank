@@ -6,7 +6,7 @@ import pages.OpenPage;
 
 import static org.testng.Assert.assertTrue;
 
-public class CheckRate extends BaseTest {
+public class CheckRateTest extends BaseUiTest {
 
     @Test
     public void checkRate() {
