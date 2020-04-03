@@ -3,6 +3,7 @@ package UI;
 import com.codeborne.selenide.WebDriverRunner;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import static com.codeborne.selenide.Selenide.*;
